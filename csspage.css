@@ -9,10 +9,16 @@ h2 {
 
 #image1 {
   display: block;
-  max-width: 50%;
+  max-width: 45%;
   height: auto;
   margin-left: auto;
   margin-right: 45%;
+}
+
+.jumbotron {
+  height: 100vh;
+  color: white;
+  background-position: center;
 }
 
 .navbar {
