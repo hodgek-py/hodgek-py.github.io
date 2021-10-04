@@ -40,9 +40,15 @@ h2 {
   .jumbotron {
     padding-top: 150px;
   }
+  #title{
+    margin-bottom: 100px;
+  }
 }
 @media only screen and (max-width: 768px){
   #image1 {
     width: 70%;
+  }
+  #title{
+    padding-bottom: 20px;
   }
 }
