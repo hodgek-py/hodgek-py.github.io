@@ -31,3 +31,18 @@ h2 {
 #home {
   background-color: blue;
 }
+
+
+@media only screen and (max-width: 576px){
+  #image1 {
+    width: 100%;
+  }
+  .jumbotron {
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 768px){
+  #image1 {
+    width: 70%;
+  }
+}
