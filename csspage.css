@@ -43,6 +43,9 @@ h2 {
   #title{
     margin-bottom: 50px;
   }
+  #game {
+    height: 30vh;
+  }
 }
 @media only screen and (max-width: 768px){
   #image1 {
@@ -54,10 +57,17 @@ h2 {
   #title{
     padding-bottom: 20px;
   }
+  #game {
+    height: 50vh;
+  }
 }
 
 @media only screen and (min-width: 769px){
   #content {
+    width: 100%;
+  }
+  #game {
+    height: 80vh;
     width: 100%;
   }
 
