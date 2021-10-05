@@ -41,10 +41,10 @@ h2 {
     padding-top: 150px;
   }
   #title{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   #game {
-    height: 30vh;
+    height: 20vh;
   }
 }
 @media only screen and (max-width: 768px){
@@ -58,7 +58,10 @@ h2 {
     padding-bottom: 20px;
   }
   #game {
-    height: 50vh;
+    height: 60vh;
+  }
+  #kaggle {
+    height: 60vh;
   }
 }
 
@@ -67,6 +70,10 @@ h2 {
     width: 100%;
   }
   #game {
+    height: 80vh;
+    width: 100%;
+  }
+  #kaggle {
     height: 80vh;
     width: 100%;
   }
