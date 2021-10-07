@@ -87,12 +87,15 @@ html * {
   }
   #game {
     height: 60vh;
+    width: 100%;
   }
   #kaggle {
     height: 60vh;
+    width: 100%;
   }
   #github {
     height: 60vh;
+    width: 100%;
   }
   #overflow1{
     height: 160px;
