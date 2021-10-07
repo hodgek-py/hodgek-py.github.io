@@ -22,7 +22,7 @@ html * {
 
 .jumbotron {
   height: 100vh;
-  color: white;
+  color: #DDD;
   background-position: center;
   margin-bottom: 0px;
 }
@@ -74,6 +74,10 @@ html * {
 @media only screen and (min-width: 769px){
   #content {
     width: 100%;
+  }
+  .jumbotron {
+    padding-top: 90px;
+    background-position: 82%;
   }
 
   #game {
