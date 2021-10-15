@@ -22,7 +22,7 @@ html * {
 
 .jumbotron {
   height: 100vh;
-  color: #DDD;
+  color: #EEE;
   background-position: center;
   margin-bottom: 0px;
 }
@@ -36,40 +36,6 @@ html * {
 }
 
 
-@media only screen and (max-width: 576px){
-  #image1 {
-    width: 100%;
-  }
-  .jumbotron {
-    padding-top: 150px;
-  }
-  #title{
-    margin-bottom: 40px;
-  }
-  #game {
-    height: 20vh;
-  }
-}
-@media only screen and (max-width: 768px){
-  #image1 {
-    width: 70%;
-  }
-  .jumbotron {
-    padding-top: 110px;
-  }
-  #content{
-    width: 100%;
-  }
-  #title{
-    padding-bottom: 20px;
-  }
-  #game {
-    height: 60vh;
-  }
-  #kaggle {
-    height: 60vh;
-  }
-}
 
 @media only screen and (min-width: 769px){
   #content {
@@ -88,9 +54,79 @@ html * {
     height: 80vh;
     width: 100%;
   }
+  #github {
+    height: 80vh;
+    width: 100%;
+  }
+
   #myCarousel {
     margin-left: 5%;
     margin-right: 5%;
   }
+  #overflow1{
+    font-size: 17px;
+  }
+  #overflow2{
+    font-size: 17px;
+  }
+}
 
+@media only screen and (max-width: 768px){
+  #image1 {
+    width: 60%;
+  }
+  .jumbotron {
+    padding-top: 100px;
+    background-position: 52%;
+  }
+  #content{
+    width: 100%;
+  }
+  #title{
+    padding-bottom: 20px;
+  }
+  #game {
+    height: 60vh;
+    width: 100%;
+  }
+  #kaggle {
+    height: 60vh;
+    width: 100%;
+  }
+  #github {
+    height: 60vh;
+    width: 100%;
+  }
+  #overflow1{
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  #image1 {
+    width: 100%;
+  }
+  .jumbotron {
+    padding-top: 150px;
+  }
+  #title{
+    margin-bottom: 30px;
+  }
+  #game {
+    height: 50vh;
+  }
+  #kaggle {
+    height: 50vh;
+  }
+  #github {
+    height: 50vh;
+  }
+  #overflow1{
+    height: 160px;
+    overflow-y: scroll;
+  }
+  #overflow2{
+    height: 160px;
+    overflow-y: scroll;
+  }
 }
