@@ -37,71 +37,6 @@ html * {
 
 
 
-@media only screen and (min-width: 769px){
-  #content {
-    width: 100%;
-  }
-  .jumbotron {
-    padding-top: 90px;
-    background-position: 82%;
-  }
-
-  #game {
-    height: 80vh;
-    width: 100%;
-  }
-  #kaggle {
-    height: 80vh;
-    width: 100%;
-  }
-  #github {
-    height: 80vh;
-    width: 100%;
-  }
-
-  #myCarousel {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  #overflow1{
-    font-size: 17px;
-  }
-  #overflow2{
-    font-size: 17px;
-  }
-}
-
-@media only screen and (max-width: 768px){
-  #image1 {
-    width: 60%;
-  }
-  .jumbotron {
-    padding-top: 100px;
-    background-position: 52%;
-  }
-  #content{
-    width: 100%;
-  }
-  #title{
-    padding-bottom: 20px;
-  }
-  #game {
-    height: 60vh;
-    width: 100%;
-  }
-  #kaggle {
-    height: 60vh;
-    width: 100%;
-  }
-  #github {
-    height: 60vh;
-    width: 100%;
-  }
-  #overflow1{
-    height: 160px;
-  }
-}
-
 @media only screen and (max-width: 576px){
   #image1 {
     width: 100%;
@@ -122,11 +57,89 @@ html * {
     height: 50vh;
   }
   #overflow1{
-    height: 160px;
+    height: 200px;
     overflow-y: scroll;
   }
   #overflow2{
-    height: 160px;
+    height: 200px;
     overflow-y: scroll;
+  }
+}
+@media only screen and (max-width: 768px){
+  #image1 {
+    width: 60%;
+  }
+  .jumbotron {
+    padding-top: 190px;
+    background-position: 52%;
+  }
+  #content{
+    width: 100%;
+  }
+
+  #textissue{
+    font-size: 13px;
+  }
+
+  #title{
+    padding-bottom: 20px;
+  }
+  #game {
+    height: 60vh;
+    width: 100%;
+  }
+  #kaggle {
+    height: 60vh;
+    width: 100%;
+  }
+  #github {
+    height: 60vh;
+    width: 100%;
+  }
+  #overflow1{
+    height: 160px;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .jumbotron {
+    padding-top: 190px;
+    background-position: 52%;
+
+}
+@media only screen and (min-width: 1000px){
+  #content {
+    width: 100%;
+  }
+  .jumbotron {
+    padding-top: 90px;
+    background-position: 82%;
+  }
+
+  #game {
+    height: 80vh;
+    width: 100%;
+  }
+  #kaggle {
+    height: 80vh;
+    width: 100%;
+  }
+  #github {
+    height: 80vh;
+    width: 100%;
+  }
+  #textissue{
+    font-size: 21px;
+  }
+
+  #myCarousel {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #overflow1{
+    font-size: 21px;
+  }
+  #overflow2{
+    font-size: 21px;
   }
 }
