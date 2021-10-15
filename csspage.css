@@ -115,6 +115,9 @@ html * {
     padding-top: 90px;
     background-position: 82%;
   }
+  #title{
+    padding-top: 24px;
+  }
 
   #game {
     height: 80vh;
